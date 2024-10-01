@@ -45,7 +45,7 @@
     "watch": "tsc --watch",
     "prepublishOnly": "npm run build",
     "publish:cocoapod": "pod trunk push ./CapacitorCamera.podspec --allow-warnings",
-    "preinstall": "npm run build"
+    "prepare": "npm run build"
   },
   "devDependencies": {
     "@capacitor/android": "^6.0.0",
